@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion '26.0.2'
+
+  signingConfigs {
+    omarea_Signing {
+      keyAlias 'omarea.com'
+      keyPassword 'I0140728'
+      storeFile file('D:/omoarea.jks')
+      storePassword 'I0140728'
+    }
+  }
+  defaultConfig {
+    minSdkVersion 8
+    targetSdkVersion 25
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+      signingConfig signingConfigs.omarea_Signing
+    }
+    debug {
+      signingConfig signingConfigs.omarea_Signing
+    }
+  }
+}
+
+dependencies {
+
+  ext {
+    supportLibVersion = '23.4.0'
+  }
+
+  compile "com.android.support:support-v4:${supportLibVersion}"
+  compile "com.android.support:appcompat-v7:${supportLibVersion}"
+  compile 'com.google.code.gson:gson:2.4'
+  compile files('libs/RootTools-3.4.jar')
+  compile files('libs/jackson-all-1.9.11.jar')
+}

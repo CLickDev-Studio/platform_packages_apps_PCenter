@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Performance Control</string>
+    <string name="refresh">Refresh</string>
+    <string name="reset_times">Reset times</string>
+    <string name="restore_times">Restore times</string>
+    <string name="report_to_github">Report</string>
+    <string name="okbutton">Done</string>
+    <string name="about">About</string>
+    <string name="error">Error!</string>
+    <string name="doesnt_support_cpufs">Your Phone Does Not Supports Cpu Frequency Scaling</string>
+    <string name="continu">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="noroot">Require Root!</string>
+    <string name="ok_message">Apply!</string>
+    <string name="fail_message">Fail!</string>
+    <string-array name="fragments">
+        <item>CPU Frequency</item>
+        <item>State time</item>
+        <item>I/O Schedule</item>
+        <item>Setting</item>
+    </string-array>
+    <string name="title_activity_governor_tuner_preference">Cpu Governor Tuning</string>
+
+    <string name="kernel">Kernel</string>
+    <string name="stats">Stats</string>
+    <string name="tools">Tools</string>
+    <string name="misc">Misc</string>
+
+    <string name="cpu">CPU</string>
+    <string name="cpuset">Cpuset</string>
+    <string name="core_control">Core</string>
+    <string name="gpu">GPU</string>
+    <string name="io">I/O</string>
+    <string name="wakelocks">Wakelocks</string>
+    <string name="cpu_hotplug">CPU Hotplug</string>
+    <string name="thermal_control">Theraml</string>
+    <string name="time_in_state">Time In State</string>
+    <string name="settings">Settings</string>
+    <string name="vm">Virtual Memory</string>
+    <string name="build_prop">Build.Prop Editor</string>
+    <string name="battery_charger">Charging</string>
+
+    <string name="cpus_ranage">Cpuset all cores</string>
+    <string name="cpus_ranage_desc">Numbers specify the current range of core numbers that can be assigned</string>
+    <string name="cpuset_system_background_cpus">System background process</string>
+    <string name="cpuset_system_background_cpus_desc">Specify the CPU that the system process can use</string>
+    <string name="cpuset_background_cpus">User background process</string>
+    <string name="cpuset_background_cpus_desc">Specify the CPU that the user process can use</string>
+    <string name="cpuset_foreground_cpus">Foreground process</string>
+    <string name="cpuset_foreground_cpus_desc">Usually all cores or most cores are allocated and changes are not recommended.</string>
+    <string name="cpuset_foreground_boost_cpus">Foreground process (Boost)</string>
+    <string name="cpuset_foreground_boost_cpus_desc">Background process (Boost)</string>
+
+    <string name="invalid_cpuset">Invalid setting</string>
+
+    <!--Time in State -->
+    <string name="total_time">Total Time</string>
+    <string name="deep_sleep">Deep Sleep</string>
+    <string name="time_since">Time Since</string>
+    <string name="kernel_info">Kernel Info</string>
+
+    <string name="charger_limit">Charge</string>
+    <string name="charger_max_limit">Max charge speed (mA)</string>
+    <string name="value_to_lager">It is too high to set!</string>
+    <string name="charger_wram_temp">Alert temperature (Celsius)</string>
+    <string name="allow_charger">Allow to charge</string>
+    <string name="allow_charger_desc">This feature is highly experimental, there are not many compatible devices, and the effect may be different for compatible devices. Some devices can use the power supply without charging, and some devices use battery power.</string>
+
+    <string name="core_toggle">Core toggle</string>
+    <string name="core_toggle_bigcore">Core toggle (Big)</string>
+
+    <string name="unsupport_this_device">Unsupport this device!</string>
+
+    <string name="thermal_vdd_restriction">VDD limit</string>
+    <string name="thermal_core_control">Core control</string>
+    <string name="thermal_core_control_desc">It is not recommended to turn this option off on 28nm devices</string>
+    <string name="thermal_parameters">Theraml limit</string>
+    <string name="thermal_parameters_desc">Limit when over heat</string>
+
+    <!--Battery Stats -->
+    <string name="times">times</string>
+    <string name="stats_not_available">Statistics are not available yet, Please Give it some time
+    </string>
+    <string-array name="wakelock_actionbar_spinner_items">
+        <item>Kernel Wakelock</item>
+        <item>Cpu Wakelocks</item>
+        <item>Alarm Triggers</item>
+    </string-array>
+    <string name="selinux_limit">The function is limited by selinux and cannot be used!</string>
+
+    <!--Frequency Scaling -->
+    <string name="core">Cores</string>
+    <string name="cluster_0">Little cluster</string>
+    <string name="cluster_1">Big cluster</string>
+    <string name="image_description">Image Icon</string>
+    <string name="max_frequency">Max Freq.</string>
+    <string name="min_frequency">Min Freq.</string>
+    <string name="cpu_frequency">Frequency</string>
+    <string name="cpu_governor">Governor</string>
+    <string name="cpu_change_governor">Change CPU governor</string>
+    <string name="cpu_change_governor_desc">Change CPU Governor</string>
+    <string name="scaling_governor">Scaling Governor</string>
+    <string name="gorvernor_parameters">Governor parameters</string>
+    <string name="gorvernor_parameters_fine_tune">Tune governors to get fine tune</string>
+    <string name="apply">Apply</string>
+    <string name="governor_applied">Governor Successfully Applied.</string>
+
+    <string name="gpu_freq">GPU Frequency</string>
+    <string name="gpu_min_freq">GPU Min freq.</string>
+    <string name="gpu_max_freq">GPU Max freq.</string>
+    <string name="gpu_governor">GPU governor</string>
+    <string name="gpu_change_governor">Change GPU governor</string>
+
+    <string name="disk_io_scheduler">I/O Scheduler</string>
+    <string name="disk_io_read_ahead_cache">Read Ahead Cache</string>
+    <string name="io_scheduler">I/O Scheduler</string>
+    <string name="read_ahead_cache">Read Ahead Cache</string>
+
+    <string name="boot_applay_select_settings">Auto apply settings at boot</string>
+    <string name="boot_auto_apply">Auto apply at boot</string>
+
+    <!--Preferences -->
+    <string name="apply_on_boot">select_apply_on_boot</string>
+</resources>
