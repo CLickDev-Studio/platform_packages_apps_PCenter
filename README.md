@@ -1,6 +1,7 @@
 # Performance-Tweaker
 
 
+Performance-Tweaker is a built-in app in CLick Project,and the app is fork from https://github.com/rahulkumar66/Performance-Tweaker
 Performance-Tweaker is a simple app for tweaking:
 
  * CPU (Frequency, Governor)
