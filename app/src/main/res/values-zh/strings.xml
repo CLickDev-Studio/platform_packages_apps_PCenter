@@ -74,6 +74,7 @@
 
     <string name="thermal_vdd_restriction">VDD限制</string>
     <string name="thermal_core_control">核心控制</string>
+    <string name="thermal_core_control_desc">不建议在28nm设备上(如骁龙810)关闭此选项</string>
     <string name="thermal_parameters">温度门限</string>
     <string name="thermal_parameters_desc">这还是不知道啥玩意，总之就是这个选项</string>
 
